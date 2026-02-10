@@ -18,4 +18,25 @@ A Core Java–based backend-style User Management and Authentication System that
 - Exception Handling
 
 ## Project Structure
+src/
+└── com.usermanagement
+├── app
+│ └── MainApp.java
+├── model
+│ └── User.java
+├── service
+│ └── UserService.java
+└── exception
+├── UserAlreadyExistsException.java
+├── UserNotFoundException.java
+└── InvalidCredentialsException.java
 
+## How to Run
+1. Clone the repository
+2. Compile all Java files
+3. Run `MainApp.java`
+
+## Future Enhancements
+- Add Java 8 features (Streams, Lambdas)
+- File or database persistence
+- Convert to Spring Boot REST API
